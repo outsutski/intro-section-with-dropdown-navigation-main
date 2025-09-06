@@ -1,0 +1,127 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500,700&display=swap');
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    color: hsl(0, 0%, 41%);
+}
+.two{
+  margin-left: auto;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+button {
+  background: hsl(0, 0%, 98%);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
+p{
+  color: hsl(0, 0%, 41%);
+  font-size: 1.125rem;
+}
+h1,h2{
+  color: hsl(0, 0%, 8%);
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 700;
+}
+h1{
+  font-size: 3.5rem;
+  padding: 0 20%;
+}
+p{
+  padding: 0 20%;
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 500;
+}
+
+section button{
+  background: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border: hsl(0, 0%, 8%);
+  margin-left: 20%;
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 500;
+}
+section button:hover{
+  color: hsl(0, 0%, 8%);
+  background: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 8%);
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+.item1{
+  width: 50%;
+}
+.item2{
+  width: 50%;
+  background-image: url('/images/image-hero-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  background-position: center;
+}
+.Features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 37px;
+  background: #fff;
+  width: 8.6rem;
+  padding: 0;
+  border-radius: 0.5rem;
+}
+.Features img{
+  padding-right: 5px;
+}
+.Company{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5px;
+  top: 37px;
+  background: #fff;
+  padding: 0;
+  left: 20px;
+  width: 6.6rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px hsl(0, 0%, 41%), hsl(0, 0%, 41%);
+}
+.hidden{
+  display: none;
+}
+
+.two a:hover{
+  color: hsl(0, 0%, 8%);
+}
+.one li:hover{
+  color: hsl(0, 0%, 8%);
+}
+
+.hover:hover{
+  color: hsl(0, 0%, 8%);
+}
+
