@@ -56,8 +56,8 @@ p{
 section button{
   background: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 98%);
-  border: hsl(0, 0%, 8%);
-  margin-left: 20%;
+  border:2px solid hsl(0, 0%, 8%);
+  margin: 2rem 0 5rem 20%;
   font-family: 'Epiloge', sans-serif;
   font-weight: 500;
 }
@@ -65,6 +65,9 @@ section button:hover{
   color: hsl(0, 0%, 8%);
   background: hsl(0, 0%, 98%);
   border: 2px solid hsl(0, 0%, 8%);
+  box-sizing: border-box;
+  font-family: 'Epiloge', sans-serif;
+  font-weight: 500;
 }
 
 .container{
@@ -117,11 +120,16 @@ section button:hover{
 .two a:hover{
   color: hsl(0, 0%, 8%);
 }
-.one li:hover{
+span{
+  cursor: pointer;
+}
+span:hover{
   color: hsl(0, 0%, 8%);
 }
 
-.hover:hover{
-  color: hsl(0, 0%, 8%);
+.clientSvgs{
+  margin-left: 20%;
 }
-
+.clientSvgs img{
+  padding-left: 4%;
+}
